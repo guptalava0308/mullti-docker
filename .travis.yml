@@ -17,7 +17,7 @@ after_success:
      ### Docker Login ####
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   #### Push the images ###
-  - docker push guptalava0308/multi-client
-  - docker push guptalava0308/multi-nginx
-  - docker push guptalava0308/multi-server
-  - docker push guptalava0308/multi-worker
+  - docker push lavagupta/multi-client
+  - docker push lavagupta/multi-nginx
+  - docker push lavagupta/multi-server
+  - docker push lavagupta/multi-worker
